@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+}    
+h3{
+    font-family: 'Lobster', sans-serif;
+    color: rgb(199, 132, 6);
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    background-color: rgba(0, 0, 0, 0.34);
+    padding: 5px;
+}
+h2{
+    font-family: 'Lobster', sans-serif;
+    color: goldenrod;
+    background-color: rgba(0, 0, 0, 0.34);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+.review{
+    font-family: 'Macondo', sans-serif;
+    background-color: rgba(0, 0, 0, 0.34);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    border-radius: 8px;
+    border: #480765;
+    outline: 10px gold;
+    outline-offset: 5px;
+    padding: 10px;
+}
+.write{
+    font-family: 'Macondo', sans-serif;
+    background-color: rgba(14, 14, 14, 0.34);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border-radius: 8px;
+    padding: 10px;
+}
+.images{
+    outline: 10px gold;
+    margin-left: auto;
+    margin-right: auto;
+    width: 28%;
+}
+#background{
+    background-image: url(images/wallpaper.jpg);
+    background-position: center;
+}
+p{
+    font-family: 'Macondo', sans-serif;
+    color: whitesmoke;
+    size: 15px;
+}
+.btn {
+    font-family: 'Macondo', sans-serif;
+    background-color: rgba(132, 4, 224, 0.902);
+    border: black;
+    border-radius: 2px;
+    color:turquoise;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+}
+.btn {border-radius: 8px;}
+.btn:hover {
+    font-family: 'Macondo', sans-serif;
+    opacity: 0.6;
+    background: rgb(5, 37, 119);
+    color:azure;
+    padding: 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+}
+.nav{
+    background-color: rgba(0, 0, 0, 0.679);
+    padding: 10px;
+}
+.btn-nav{
+    font-family: 'Macondo', sans-serif;
+    background-color: rgba(22, 17, 174, 0.843);
+    border: whitesmoke;
+    color:turquoise;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;  
+}
+.btn-nav {border-radius: 4px;}
+.btn-nav:hover {
+    opacity: 0.7;
+    
+    font-family: 'Macondo', sans-serif;
+    color:rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+}
+a{
+    color:whitesmoke
+}
+ 
+  /* Add a hover effect */
+.fa:hover {
+    opacity: 0.7;
+}
+  
+  /* Set a specific color for each brand*/
+.instagram_c {
+    padding: 25px;
+    font-size: 50px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    background: #fcf009;
+    color: white;
+}
+.twitter_c{
+    padding: 25px;
+    font-size: 50px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    background: #55ACEE;
+    color: white;
+}
+.twitch_c {
+    padding: 25px;
+    font-size: 50px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    transform-origin: center;
+    text-decoration: none;
+    background: rgb(132, 4, 224);
+    color: white;
+}
+.youtube_c {
+    padding: 25px;
+    font-size: 50px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    background: rgb(255, 0, 0);
+    color: white;  
+} 
+.fa-steam{
+    padding: 5px;
+    font-size: 50px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    background: rgb(5, 37, 119);
+    color: white;
+    border-radius: 50%;  
+}
+
+.social {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px; 
+    grid-template-rows: 120px;
+    grid-column-gap: 150px;
+}
+
+.top {
+    display: grid;
+    grid-template-columns: 200px 200px; 
+    grid-template-rows: 100px;
+    grid-column-gap: 400px;
+}
+
+.recs {
+    display: grid;
+    grid-template-columns: 100px 100px 100px; 
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-column-gap: 200px;
+    grid-row-gap: 100px;
+}
+
+.dropbtn {
+    font-family: 'Macondo', sans-serif;
+    background-color: #0c04aa;
+    color: turquoise;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #8093ff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    font-family: 'Macondo', sans-serif;
+    color: rgb(0, 0, 0);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+ 
+  .dropdown-content a:hover {background-color: rgb(0, 179, 196);}
+  
+ 
+  .dropdown:hover .dropdown-content {display: block;}
+  
+ 
+  .dropdown:hover .dropbtn {background-color: #480765;}
+
+
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid rgb(0, 0, 0); 
+    border-radius: 2px;
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #5d04aa;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #5c45a0;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .form {
+    border-radius: 5px;
+    background-color: #8b88e2bb;
+    padding: 20px;
+  }
+
+  .icon-bar {
+    position: fixed;
+    top: 70%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  /* Style the icon bar links */
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 30px;
+  }
+  
+  /* Style the social media icons with color, if you want */
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .instagram {
+    background: #fcf009;
+    color: white;
+  }
+  
+  .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .twitch {
+    background: rgb(132, 4, 224);
+    color: white;
+  }
+  
+  .youtube {
+    background: rgb(255, 0, 0);
+    color: white;
+  }
